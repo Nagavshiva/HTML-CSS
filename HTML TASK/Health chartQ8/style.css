@@ -1,0 +1,28 @@
+table,tr,th,td{
+    border: 2px solid rgb(97, 107, 97);
+    border-collapse: collapse;
+    width: 800px;
+    height: 45px;
+    background-color: whitesmoke;
+    box-shadow:rgba(219, 195, 195, 0.7);
+   
+   
+}
+th{
+    background-color: rgb(102, 211, 184)
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgb(155, 94, 94)),url("https://c8.alamy.com/comp/2B7086N/abstract-technology-ui-futuristic-human-medical-hud-interface-hologram-elements-of-digital-data-chart-dnafingerprintbrain-computing-circle-vitality-2B7086N.jpg");
+    
+}
+td:hover{
+    background-color: darkseagreen;
+}

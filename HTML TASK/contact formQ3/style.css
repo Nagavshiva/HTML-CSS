@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),#3551b5),url("https://image.shutterstock.com/z/stock-photo-wall-mural-d-illusion-backdrop-1534401932.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+form{
+   width:90%;
+   max-width: 600px;
+
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    outline: 0;
+    background: transparent;
+}
+label{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+
+}
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border:1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:focus~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.row.input-group{
+    flex-basis: 48%;
+}
